@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap project</title>
+    <!-- bootsrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- bootsrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- link css -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body style="overflow-x: hidden">
+    <!-- mobile header -->
+    <div class="mobile-header" style="position: sticky; top: 0; z-index: 100">
+      <div class="logo">
+        <a href="">
+          <img
+            src="https://preview.colorlib.com/theme/courses/assets/img/logo/logo.png"
+            alt="btp"
+          />
+        </a>
+      </div>
+      <!-- dropdown -->
+      <div
+        class="mobile-dropdown mx-3"
+        style="margin-top: -18px; background-color: #4c4c4c; z-index: 200"
+      >
+        <div class="w-100 px-3 py-2 d-flex justify-content-end">
+          <button class="toggle btn bg-dark text-light">
+            MENU <i class="bi bi-list"></i>
+          </button>
+        </div>
+        <!-- container -->
+        <ul class="dropdown-container py-4 pe-5">
+          <li class="nav-item mb-2 p-2" style="list-style: none">
+            <a href="" class="nav-link text-light fs-3">Home</a>
+          </li>
+          <li class="nav-item mb-2 p-2" style="list-style: none">
+            <a href="" class="nav-link text-light fs-3">Courses</a>
+          </li>
+          <li class="nav-item mb-2 p-2" style="list-style: none">
+            <a href="" class="nav-link text-light fs-3">About</a>
+          </li>
+          <li class="nav-item mb-2 p-2" style="list-style: none">
+            <a href="" class="nav-link text-light fs-3">Blog+</a>
+          </li>
+          <li class="nav-item mb-2 p-2" style="list-style: none">
+            <a href="" class="nav-link text-light fs-3">Contact</a>
+          </li>
+        </ul>
+        <div class="d-flex align-items-baseline flex-column gap-4 pb-3 ms-4">
+          <a href="/" class="btn text-light btn-primary py-3 px-5">Join</a>
+          <a href="/" class="btn text-light btn-secondary py-3 px-5">Log In</a>
+        </div>
+      </div>
+    </div>
+    <!-- header -->
+    <header class="row d-flex align-items-center justify-content-between px-5">
+      <div class="logo col-2">
+        <a href="">
+          <img
+            src="https://preview.colorlib.com/theme/courses/assets/img/logo/logo.png"
+            alt="btp"
+          />
+        </a>
+      </div>
+      <nav class="nav col-10 d-flex align-items-center justify-content-end">
+        <li class="nav-item py-4">
+          <a href="/" class="nav-link text-light">Home</a>
+        </li>
+        <li class="nav-item py-4">
+          <a href="/" class="nav-link text-light">Courses</a>
+        </li>
+        <li class="nav-item py-4">
+          <a href="/" class="nav-link text-light">About</a>
+        </li>
+        <li class="nav-item py-4">
+          <a href="/" class="nav-link text-light">Blog</a>
+        </li>
+        <li class="nav-item py-4">
+          <a href="/" class="nav-link text-light">Contact</a>
+        </li>
+        <div class="d-flex align-items-center gap-4 ms-5">
+          <a href="/" class="btn text-light btn-primary py-3 px-5">Join</a>
+          <a href="/" class="btn text-light btn-secondary py-3 px-5">Log In</a>
+        </div>
+      </nav>
+    </header>
+    <!-- banner -->
+    <div class="banner p-5">
+      <div
+        class="container d-flex flex-column align-items-end justify-content-end py-5"
+      >
+        <h2 class="text-light display-3 text-end fw-bolder">
+          Online learning
+          <br />
+          platform
+        </h2>
+        <p class="text-light text-end fs-5 fw-light my-4">
+          Build skills with courses and, certificate, and degrees online from
+          <br />
+          world- world class universities and companies
+        </p>
+        <div>
+          <a href="/" class="btn text-light btn-primary py-3 px-5"
+            >Join For Free</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- main start -->
+    <main style="background: #f4ecec">
+      <!-- sub-about -->
+      <section id="sub-about" class="py-5">
+        <div class="container">
+          <div class="row m-0 p-0">
+            <!-- col-1 -->
+            <div class="col-md-4 mb-5 px-2">
+              <div class="card px-4 py-3">
+                <div class="row m-0 p-0">
+                  <div class="card-image col-4 pe-4">
+                    <img
+                      src="https://preview.colorlib.com/theme/courses/assets/img/icon/icon1.svg"
+                      alt="..."
+                      class="img-fluid w-100"
+                      style="height: 100px"
+                    />
+                  </div>
+                  <!-- card content -->
+                  <div class="card-content col-8">
+                    <h4 class="title fs-5" style="color: #4256a4">
+                      60+ US courses
+                    </h4>
+                    <p class="f-6" style="color: #4256a4">
+                      The automated process all your website tasks.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 
+col 2            
+-->
+            <div class="col-md-4 mb-5 px-3">
+              <div class="card px-4 py-3">
+                <div class="row m-0 p-0">
+                  <div class="card-image col-4 pe-4">
+                    <img
+                      src="https://preview.colorlib.com/theme/courses/assets/img/icon/icon2.svg"
+                      alt="..."
+                      class="img-fluid w-100"
+                      style="height: 100px"
+                    />
+                  </div>
+                  <!-- card content -->
+                  <div class="card-content col-8">
+                    <h4 class="title fs-5" style="color: #4256a4">
+                      Expert instructors
+                    </h4>
+                    <p class="f-6" style="color: #4256a4">
+                      The automated process all your website tasks.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 
+col 3          
+-->
+            <div class="col-md-4 mb-5 px-3">
+              <div class="card px-4 py-3">
+                <div class="row m-0 p-0">
+                  <div class="card-image col-4 pe-4">
+                    <img
+                      src="https://preview.colorlib.com/theme/courses/assets/img/icon/icon3.svg"
+                      alt="..."
+                      class="img-fluid w-100"
+                      style="height: 100px"
+                    />
+                  </div>
+                  <!-- card content -->
+                  <div class="card-content col-8">
+                    <h4 class="title fs-5" style="color: #4256a4">
+                      Life time access
+                    </h4>
+                    <p class="f-6" style="color: #4256a4">
+                      The automated process all your website tasks.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Our featured courses -->
+      <section id="feature-courses" class="py-5">
+        <div class="container">
+          <h1
+            class="text-center display-3 fw-semibold mb-5"
+            style="color: #4256a4"
+          >
+            Our featured courses
+          </h1>
+          <!-- carousal -->
+          <div
+            id="carouselExampleAutoplaying"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active carousel-1">
+                <!-- carousel-1 s -->
+                <div class="row">
+                  <!-- col 1 -->
+                  <div class="col-md-4 px-2 mb-3">
+                    <div class="card">
+                      <div class="card-image">
+                        <img
+                          src="https://preview.colorlib.com/theme/courses/assets/img/gallery/featured1.png"
+                          alt=""
+                          class="img-fluid w-100 rounded-top"
+                          style="height: 200px"
+                        />
+                      </div>
+                      <div class="card-content px-4 py-3">
+                        <h4 style="color: #6e7798" class="fs-5 mb-3">
+                          User Experience
+                        </h4>
+                        <h2 class="card-t fs-4 mb-3" style="color: #4256a4">
+                          Fundamental of UX for Application design
+                        </h2>
+
+                        <p
+                          style="color: #6e7798; line-height: 1.5"
+                          class="fs-6"
+                        >
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Placeat aliquam aut magnam perferendis illo
+                          incidunt sed beatae deserunt nesciunt quam!
+                        </p>
+                        <div class="rating mb-2">
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-half text-warning fs-5"></i>
+                        </div>
+
+                        <div class="row">
+                          <p class="col-md-8 mb-2">(4.5) based on 120</p>
+                          <h4
+                            class="col-md-4 mb-2 text-end fw-semibold fs-4"
+                            style="color: #4256a4"
+                          >
+                            $135
+                          </h4>
+                        </div>
+                        <!-- action  -->
+                        <div class="px-2">
+                          <a href="" class="btn btn-action border w-100 py-3"
+                            >Find Out More</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- col -2 -->
+                  <div class="col-md-4 px-2 mb-3">
+                    <div class="card">
+                      <div class="card-image">
+                        <img
+                          src="https://preview.colorlib.com/theme/courses/assets/img/gallery/featured2.png"
+                          alt=""
+                          class="img-fluid w-100 rounded-top"
+                          style="height: 200px"
+                        />
+                      </div>
+                      <div class="card-content px-4 py-3">
+                        <h4 style="color: #6e7798" class="fs-5 mb-3">
+                          User Experience
+                        </h4>
+                        <h2 class="card-t fs-4 mb-3" style="color: #4256a4">
+                          Fundamental of UX for Application design
+                        </h2>
+
+                        <p
+                          style="color: #6e7798; line-height: 1.5"
+                          class="fs-6"
+                        >
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Placeat aliquam aut magnam perferendis illo
+                          incidunt sed beatae deserunt nesciunt quam!
+                        </p>
+                        <div class="rating mb-2">
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-half text-warning fs-5"></i>
+                        </div>
+
+                        <div class="row">
+                          <p class="col-md-8 mb-2">(4.5) based on 120</p>
+                          <h4
+                            class="col-md-4 mb-2 text-end fw-semibold fs-4"
+                            style="color: #4256a4"
+                          >
+                            $135
+                          </h4>
+                        </div>
+                        <!-- action  -->
+                        <div class="px-2">
+                          <a href="" class="btn btn-action border w-100 py-3"
+                            >Find Out More</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- col-3 -->
+                  <div class="col-md-4 px-2 mb-3">
+                    <div class="card">
+                      <div class="card-image">
+                        <img
+                          src="https://preview.colorlib.com/theme/courses/assets/img/gallery/featured3.png"
+                          alt=""
+                          class="img-fluid w-100 rounded-top"
+                          style="height: 200px"
+                        />
+                      </div>
+                      <div class="card-content px-4 py-3">
+                        <h4 style="color: #6e7798" class="fs-5 mb-3">
+                          User Experience
+                        </h4>
+                        <h2 class="card-t fs-4 mb-3" style="color: #4256a4">
+                          Fundamental of UX for Application design
+                        </h2>
+
+                        <p
+                          style="color: #6e7798; line-height: 1.5"
+                          class="fs-6"
+                        >
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Placeat aliquam aut magnam perferendis illo
+                          incidunt sed beatae deserunt nesciunt quam!
+                        </p>
+                        <div class="rating mb-2">
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-half text-warning fs-5"></i>
+                        </div>
+
+                        <div class="row">
+                          <p class="col-md-8 mb-2">(4.5) based on 120</p>
+                          <h4
+                            class="col-md-4 mb-2 text-end fw-semibold fs-4"
+                            style="color: #4256a4"
+                          >
+                            $135
+                          </h4>
+                        </div>
+                        <!-- action  -->
+                        <div class="px-2">
+                          <a href="" class="btn btn-action border w-100 py-3"
+                            >Find Out More</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- carousel-1 e -->
+              </div>
+              <div class="carousel-item carousel-2">
+                <div class="row">
+                  <!-- col 1 -->
+                  <div class="col-md-4 px-2 mb-3">
+                    <div class="card">
+                      <div class="card-image">
+                        <img
+                          src="https://preview.colorlib.com/theme/courses/assets/img/gallery/featured3.png"
+                          alt=""
+                          class="img-fluid w-100 rounded-top"
+                          style="height: 200px"
+                        />
+                      </div>
+                      <div class="card-content px-4 py-3">
+                        <h4 style="color: #6e7798" class="fs-5 mb-3">
+                          User Experience
+                        </h4>
+                        <h2 class="card-t fs-4 mb-3" style="color: #4256a4">
+                          Fundamental of UX for Application design
+                        </h2>
+
+                        <p
+                          style="color: #6e7798; line-height: 1.5"
+                          class="fs-6"
+                        >
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Placeat aliquam aut magnam perferendis illo
+                          incidunt sed beatae deserunt nesciunt quam!
+                        </p>
+                        <div class="rating mb-2">
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-half text-warning fs-5"></i>
+                        </div>
+
+                        <div class="row">
+                          <p class="col-md-8 mb-2">(4.5) based on 120</p>
+                          <h4
+                            class="col-md-4 mb-2 text-end fw-semibold fs-4"
+                            style="color: #4256a4"
+                          >
+                            $135
+                          </h4>
+                        </div>
+                        <!-- action  -->
+                        <div class="px-2">
+                          <a href="" class="btn btn-action border w-100 py-3"
+                            >Find Out More</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- col -2 -->
+                  <div class="col-md-4 px-2 mb-3">
+                    <div class="card">
+                      <div class="card-image">
+                        <img
+                          src="https://preview.colorlib.com/theme/courses/assets/img/gallery/featured2.png"
+                          alt=""
+                          class="img-fluid w-100 rounded-top"
+                          style="height: 200px"
+                        />
+                      </div>
+                      <div class="card-content px-4 py-3">
+                        <h4 style="color: #6e7798" class="fs-5 mb-3">
+                          User Experience
+                        </h4>
+                        <h2 class="card-t fs-4 mb-3" style="color: #4256a4">
+                          Fundamental of UX for Application design
+                        </h2>
+
+                        <p
+                          style="color: #6e7798; line-height: 1.5"
+                          class="fs-6"
+                        >
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Placeat aliquam aut magnam perferendis illo
+                          incidunt sed beatae deserunt nesciunt quam!
+                        </p>
+                        <div class="rating mb-2">
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-half text-warning fs-5"></i>
+                        </div>
+
+                        <div class="row">
+                          <p class="col-md-8 mb-2">(4.5) based on 120</p>
+                          <h4
+                            class="col-md-4 mb-2 text-end fw-semibold fs-4"
+                            style="color: #4256a4"
+                          >
+                            $135
+                          </h4>
+                        </div>
+                        <!-- action  -->
+                        <div class="px-2">
+                          <a href="" class="btn btn-action border w-100 py-3"
+                            >Find Out More</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- col-3 -->
+
+                  <div class="col-md-4 px-2 mb-3">
+                    <div class="card">
+                      <div class="card-image">
+                        <img
+                          src="https://preview.colorlib.com/theme/courses/assets/img/gallery/featured1.png"
+                          alt=""
+                          class="img-fluid w-100 rounded-top"
+                          style="height: 200px"
+                        />
+                      </div>
+                      <div class="card-content px-4 py-3">
+                        <h4 style="color: #6e7798" class="fs-5 mb-3">
+                          User Experience
+                        </h4>
+                        <h2 class="card-t fs-4 mb-3" style="color: #4256a4">
+                          Fundamental of UX for Application design
+                        </h2>
+
+                        <p
+                          style="color: #6e7798; line-height: 1.5"
+                          class="fs-6"
+                        >
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Placeat aliquam aut magnam perferendis illo
+                          incidunt sed beatae deserunt nesciunt quam!
+                        </p>
+                        <div class="rating mb-2">
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-half text-warning fs-5"></i>
+                        </div>
+
+                        <div class="row">
+                          <p class="col-md-8 mb-2">(4.5) based on 120</p>
+                          <h4
+                            class="col-md-4 mb-2 text-end fw-semibold fs-4"
+                            style="color: #4256a4"
+                          >
+                            $135
+                          </h4>
+                        </div>
+                        <!-- action  -->
+                        <div class="px-2">
+                          <a href="" class="btn btn-action border w-100 py-3"
+                            >Find Out More</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item carousel-3">
+                <div class="row">
+                  <!-- col 1 -->
+                  <div class="col-md-4 px-2 mb-3">
+                    <div class="card">
+                      <div class="card-image">
+                        <img
+                          src="https://preview.colorlib.com/theme/courses/assets/img/gallery/featured3.png"
+                          alt=""
+                          class="img-fluid w-100 rounded-top"
+                          style="height: 200px"
+                        />
+                      </div>
+                      <div class="card-content px-4 py-3">
+                        <h4 style="color: #6e7798" class="fs-5 mb-3">
+                          User Experience
+                        </h4>
+                        <h2 class="card-t fs-4 mb-3" style="color: #4256a4">
+                          Fundamental of UX for Application design
+                        </h2>
+
+                        <p
+                          style="color: #6e7798; line-height: 1.5"
+                          class="fs-6"
+                        >
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Placeat aliquam aut magnam perferendis illo
+                          incidunt sed beatae deserunt nesciunt quam!
+                        </p>
+                        <div class="rating mb-2">
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-half text-warning fs-5"></i>
+                        </div>
+
+                        <div class="row">
+                          <p class="col-md-8 mb-2">(4.5) based on 120</p>
+                          <h4
+                            class="col-md-4 mb-2 text-end fw-semibold fs-4"
+                            style="color: #4256a4"
+                          >
+                            $135
+                          </h4>
+                        </div>
+                        <!-- action  -->
+                        <div class="px-2">
+                          <a href="" class="btn btn-action border w-100 py-3"
+                            >Find Out More</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- col -2 -->
+
+                  <div class="col-md-4 px-2 mb-3">
+                    <div class="card">
+                      <div class="card-image">
+                        <img
+                          src="https://preview.colorlib.com/theme/courses/assets/img/gallery/featured1.png"
+                          alt=""
+                          class="img-fluid w-100 rounded-top"
+                          style="height: 200px"
+                        />
+                      </div>
+                      <div class="card-content px-4 py-3">
+                        <h4 style="color: #6e7798" class="fs-5 mb-3">
+                          User Experience
+                        </h4>
+                        <h2 class="card-t fs-4 mb-3" style="color: #4256a4">
+                          Fundamental of UX for Application design
+                        </h2>
+
+                        <p
+                          style="color: #6e7798; line-height: 1.5"
+                          class="fs-6"
+                        >
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Placeat aliquam aut magnam perferendis illo
+                          incidunt sed beatae deserunt nesciunt quam!
+                        </p>
+                        <div class="rating mb-2">
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-half text-warning fs-5"></i>
+                        </div>
+
+                        <div class="row">
+                          <p class="col-md-8 mb-2">(4.5) based on 120</p>
+                          <h4
+                            class="col-md-4 mb-2 text-end fw-semibold fs-4"
+                            style="color: #4256a4"
+                          >
+                            $135
+                          </h4>
+                        </div>
+                        <!-- action  -->
+                        <div class="px-2">
+                          <a href="" class="btn btn-action border w-100 py-3"
+                            >Find Out More</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- col-3 -->
+                  <div class="col-md-4 px-2 mb-3">
+                    <div class="card">
+                      <div class="card-image">
+                        <img
+                          src="https://preview.colorlib.com/theme/courses/assets/img/gallery/featured2.png"
+                          alt=""
+                          class="img-fluid w-100 rounded-top"
+                          style="height: 200px"
+                        />
+                      </div>
+                      <div class="card-content px-4 py-3">
+                        <h4 style="color: #6e7798" class="fs-5 mb-3">
+                          User Experience
+                        </h4>
+                        <h2 class="card-t fs-4 mb-3" style="color: #4256a4">
+                          Fundamental of UX for Application design
+                        </h2>
+
+                        <p
+                          style="color: #6e7798; line-height: 1.5"
+                          class="fs-6"
+                        >
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Placeat aliquam aut magnam perferendis illo
+                          incidunt sed beatae deserunt nesciunt quam!
+                        </p>
+                        <div class="rating mb-2">
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-fill text-warning fs-5"></i>
+                          <i class="bi bi-star-half text-warning fs-5"></i>
+                        </div>
+
+                        <div class="row">
+                          <p class="col-md-8 mb-2">(4.5) based on 120</p>
+                          <h4
+                            class="col-md-4 mb-2 text-end fw-semibold fs-4"
+                            style="color: #4256a4"
+                          >
+                            $135
+                          </h4>
+                        </div>
+                        <!-- action  -->
+                        <div class="px-2">
+                          <a href="" class="btn btn-action border w-100 py-3"
+                            >Find Out More</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- carousel end -->
+          <!-- card container -->
+        </div>
+      </section>
+      <!-- learn new skills -->
+      <section id="learn-new-skills" class="py-5">
+        <div class="container">
+          <div>
+            <img src="/assets/images/courses tool.jpg" alt="" />
+          </div>
+          <h1
+            class="fs-2 fw-semibold my-5"
+            style="color: #4256a4; word-spacing: 20px; letter-spacing: 2px"
+          >
+            Learn new skills online with top <br />
+            educators
+          </h1>
+          <!-- content -->
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="fs-6" style="color: #10285d; line-height: 1.5">
+                The automated process all your website tasks. Discover tools and
+                techniques to engage effectively with vulnerable children and
+                young people.
+              </h2>
+
+              <div class="my-5">
+                <h4 class="mb-3 row">
+                  <i class="bi bi-check2 fs-2 col-1" style="color: #ed8e00"></i>
+
+                  <span
+                    class="col-11"
+                    style="color: #4256a4; font-size: 0.9rem"
+                  >
+                    Techniques to engage effectively with vulnerable children
+                    and young people.
+                  </span>
+                </h4>
+                <h4 class="mb-3 row">
+                  <i class="bi bi-check2 fs-2 col-1" style="color: #ed8e00"></i>
+
+                  <span
+                    class="col-11"
+                    style="color: #4256a4; font-size: 0.9rem"
+                  >
+                    Join millions of people from around the world learning
+                    together.
+                  </span>
+                </h4>
+                <h4 class="mb-3 row">
+                  <i class="col-1 bi bi-check2 fs-2" style="color: #ed8e00"></i>
+
+                  <span
+                    class="col-11"
+                    style="color: #4256a4; font-size: 0.9rem"
+                  >
+                    Join millions of people from around the world learning
+                    together. Online learning is as easy and natural.
+                  </span>
+                </h4>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4 p-4">
+              <div class="md-4">
+                <iframe
+                  class="w-100 h-100"
+                  src="https://www.youtube.com/embed/fcQZCMbt4SM?si=2d-FCWFzk7KS_Yue"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- explore top courses -->
+      <section id="top-subjects" class="py-5">
+        <div class="container">
+          <h1
+            class="text-center display-3 fw-semibold mb-5"
+            style="color: #4256a4"
+          >
+            Explore top subjects
+          </h1>
+          <div class="row">
+            <!-- column -->
+            <div class="col-md-3 mb-4">
+              <div class="card position-relative">
+                <img
+                  src="https://preview.colorlib.com/theme/courses/assets/img/gallery/topic1.png"
+                  alt="courses"
+                  class="img-fluid w-100 h-100"
+                  style="height: 170px"
+                />
+
+                <!-- watermark -->
+                <h2
+                  class="text-uppercase text-light fs-3 position-absolute"
+                  style="
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 100;
+                  "
+                >
+                  Programing
+                </h2>
+              </div>
+            </div>
+            <!--  -->
+            <!-- col2 -->
+            <div class="col-md-3 mb-4">
+              <div class="card position-relative">
+                <img
+                  src="https://preview.colorlib.com/theme/courses/assets/img/gallery/topic2.png"
+                  alt="courses"
+                  class="img-fluid w-100 h-100 rounded"
+                  style="height: 170px"
+                />
+
+                <!-- watermark -->
+                <h2
+                  class="text-uppercase text-light fs-3 position-absolute"
+                  style="
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 100;
+                  "
+                >
+                  Programing
+                </h2>
+              </div>
+            </div>
+            <!--  -->
+            <!-- col3 -->
+            <div class="col-md-3 mb-4">
+              <div class="card position-relative">
+                <img
+                  src="https://preview.colorlib.com/theme/courses/assets/img/gallery/topic3.png"
+                  alt="courses"
+                  class="img-fluid w-100 h-100 rounded"
+                  style="height: 170px"
+                />
+
+                <!-- watermark -->
+                <h2
+                  class="text-uppercase text-light fs-3 position-absolute"
+                  style="
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 100;
+                  "
+                >
+                  Programing
+                </h2>
+              </div>
+            </div>
+            <!--  -->
+            <!-- col4 -->
+            <div class="col-md-3 mb-4">
+              <div class="card position-relative">
+                <img
+                  src="https://preview.colorlib.com/theme/courses/assets/img/gallery/topic4.png"
+                  alt="courses"
+                  class="img-fluid w-100 h-100 rounded"
+                  style="height: 170px"
+                />
+
+                <!-- watermark -->
+                <h2
+                  class="text-uppercase text-light fs-3 position-absolute"
+                  style="
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 100;
+                  "
+                >
+                  Programing
+                </h2>
+              </div>
+            </div>
+            <!--  -->
+            <!-- col5 -->
+            <div class="col-md-3 mb-4">
+              <div class="card position-relative">
+                <img
+                  src="https://preview.colorlib.com/theme/courses/assets/img/gallery/topic5.png"
+                  alt="courses"
+                  class="img-fluid w-100 h-100 rounded"
+                  style="height: 170px"
+                />
+
+                <!-- watermark -->
+                <h2
+                  class="text-uppercase text-light fs-3 position-absolute"
+                  style="
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 100;
+                  "
+                >
+                  Programing
+                </h2>
+              </div>
+            </div>
+            <!--  -->
+            <!-- col6 -->
+            <div class="col-md-3 mb-4">
+              <div class="card position-relative">
+                <img
+                  src="https://preview.colorlib.com/theme/courses/assets/img/gallery/topic6.png"
+                  alt="courses"
+                  class="img-fluid w-100 h-100 rounded"
+                  style="height: 170px"
+                />
+
+                <!-- watermark -->
+                <h2
+                  class="text-uppercase text-light fs-3 position-absolute"
+                  style="
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 100;
+                  "
+                >
+                  Programing
+                </h2>
+              </div>
+            </div>
+            <!--  -->
+            <!-- col7 -->
+            <div class="col-md-3 mb-4">
+              <div class="card position-relative">
+                <img
+                  src="https://preview.colorlib.com/theme/courses/assets/img/gallery/topic7.png"
+                  alt="courses"
+                  class="img-fluid w-100 h-100 rounded"
+                  style="height: 170px"
+                />
+
+                <!-- watermark -->
+                <h2
+                  class="text-uppercase text-light fs-3 position-absolute"
+                  style="
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 100;
+                  "
+                >
+                  Programing
+                </h2>
+              </div>
+            </div>
+            <!--  -->
+            <!-- col8 -->
+            <div class="col-md-3 mb-4">
+              <div class="card position-relative">
+                <img
+                  src="https://preview.colorlib.com/theme/courses/assets/img/gallery/topic8.png"
+                  alt="courses"
+                  class="img-fluid w-100 h-100 rounded"
+                  style="height: 170px"
+                />
+
+                <!-- watermark -->
+                <h2
+                  class="text-uppercase text-light fs-3 position-absolute"
+                  style="
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 100;
+                  "
+                >
+                  Programing
+                </h2>
+              </div>
+            </div>
+            <!--  -->
+          </div>
+
+          <!-- action button  -->
+          <div
+            class="px-2 d-flex align-items-center justify-content-center mt-5"
+          >
+            <a href="" class="btn btn-action border px-5 py-3"
+              >View More Subjects</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- learner outcome -->
+      <section id="learner-outcome " class="py-5">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+              <img
+                src="https://preview.colorlib.com/theme/courses/assets/img/gallery/about3.png"
+                alt="courses"
+                class="img-fluid w-100"
+              />
+            </div>
+            <div class="col-md-6 ps-5">
+              <h1
+                class="text-start fs-1 fw-semibold mb-5"
+                style="color: #4256a4"
+              >
+                Learner outcomes <br />on courses you will take
+              </h1>
+              <div class="my-5">
+                <h4 class="mb-3 row">
+                  <i class="bi bi-check2 fs-2 col-1" style="color: #ed8e00"></i>
+
+                  <span
+                    class="col-11"
+                    style="color: #4256a4; font-size: 0.9rem"
+                  >
+                    Techniques to engage effectively with vulnerable children
+                    and young people.
+                  </span>
+                </h4>
+                <h4 class="mb-3 row">
+                  <i class="bi bi-check2 fs-2 col-1" style="color: #ed8e00"></i>
+
+                  <span
+                    class="col-11"
+                    style="color: #4256a4; font-size: 0.9rem"
+                  >
+                    Join millions of people from around the world learning
+                    together.
+                  </span>
+                </h4>
+                <h4 class="mb-3 row">
+                  <i class="col-1 bi bi-check2 fs-2" style="color: #ed8e00"></i>
+
+                  <span
+                    class="col-11"
+                    style="color: #4256a4; font-size: 0.9rem"
+                  >
+                    Join millions of people from around the world learning
+                    together. Online learning is as easy and natural.
+                  </span>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- community expert -->
+      <section id="community-expert">
+        <div class="container">
+          <h1
+            class="text-center display-3 fw-semibold mb-5"
+            style="color: #4256a4"
+          >
+            Community experts
+          </h1>
+          <div class="row">
+            <!-- card 1 -->
+            <div class="col-md-3 mb-4">
+              <div class="card bg-transparent border-0">
+                <!-- card image -->
+                <div class="card-image text-center">
+                  <img
+                    src="https://preview.colorlib.com/theme/courses/assets/img/gallery/team2.png"
+                    alt="expert"
+                    class="img-fluid rounded-circle"
+                    style="width: 12rem; height: 12rem"
+                  />
+                </div>
+                <!-- card content -->
+                <div
+                  class="card-content d-flex flex-column align-items-center justify-content-center gap-3"
+                >
+                  <h2 class="card-title fs-4" style="color: #4256a4">
+                    Mr. Uttom
+                  </h2>
+                  <p class="text-center" style="color: #8f9ac8">
+                    the automated process all your <br />
+                    websites tasks
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- card 1 e -->
+            <!-- card 2 -->
+            <div class="col-md-3 mb-4">
+              <div class="card bg-transparent border-0">
+                <!-- card image -->
+                <div class="card-image text-center">
+                  <img
+                    src="https://preview.colorlib.com/theme/courses/assets/img/gallery/team3.png"
+                    alt="expert"
+                    class="img-fluid rounded-circle"
+                    style="width: 12rem; height: 12rem"
+                  />
+                </div>
+                <!-- card content -->
+                <div
+                  class="card-content d-flex flex-column align-items-center justify-content-center gap-3"
+                >
+                  <h2 class="card-title fs-4" style="color: #4256a4">
+                    Mr. Shakil
+                  </h2>
+                  <p class="text-center" style="color: #8f9ac8">
+                    the automated process all your <br />
+                    websites tasks
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- card 2e -->
+            <!-- card 3 -->
+            <div class="col-md-3 mb-4">
+              <div class="card bg-transparent border-0">
+                <!-- card image -->
+                <div class="card-image text-center">
+                  <img
+                    src="https://preview.colorlib.com/theme/courses/assets/img/gallery/team4.png"
+                    alt="expert"
+                    class="img-fluid rounded-circle"
+                    style="width: 12rem; height: 12rem"
+                  />
+                </div>
+                <!-- card content -->
+                <div
+                  class="card-content d-flex flex-column align-items-center justify-content-center gap-3"
+                >
+                  <h2 class="card-title fs-4" style="color: #4256a4">
+                    Mr. Arafat
+                  </h2>
+                  <p class="text-center" style="color: #8f9ac8">
+                    the automated process all your <br />
+                    websites tasks
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- card 3e -->
+            <!-- card 4 -->
+            <div class="col-md-3 mb-4">
+              <div class="card bg-transparent border-0">
+                <!-- card image -->
+                <div class="card-image text-center">
+                  <img
+                    src="https://preview.colorlib.com/theme/courses/assets/img/gallery/team1.png"
+                    alt="expert"
+                    class="img-fluid rounded-circle"
+                    style="width: 12rem; height: 12rem"
+                  />
+                </div>
+                <!-- card content -->
+                <div
+                  class="card-content d-flex flex-column align-items-center justify-content-center gap-3"
+                >
+                  <h2 class="card-title fs-4" style="color: #4256a4">
+                    Mr. Urela
+                  </h2>
+                  <p class="text-center" style="color: #8f9ac8">
+                    the automated process all your <br />
+                    websites tasks
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- card 4e -->
+          </div>
+        </div>
+      </section>
+      <!-- step foward -->
+      <section id="step-forward">
+        <div class="px-5">
+          <div class="row d-flex align-items-center">
+            <!-- col 1 -->
+            <div class="col-md-6 mb-4">
+              <img
+                src="https://preview.colorlib.com/theme/courses/assets/img/gallery/about2.png"
+                alt=""
+                class="img img-fluid w-100"
+                style="max-height: 80vh"
+              />
+            </div>
+            <!-- col 2 -->
+            <div class="col-md-6 mb-4">
+              <div class="card bg-transparent border-0 px-5">
+                <h2 class="card-title fs-1" style="color: #4255a4">
+                  Take the next step toward your personal and professional goals
+                  with us.
+                </h2>
+                <p class="my-4" style="color: #8f9ac8">
+                  The automated process all your website tasks. Discover tools
+                  and techniques to engage effectively with vulnerable children
+                  and young people.
+                </p>
+                <div>
+                  <a
+                    href="/"
+                    class="btn text-light btn-primary py-3 px-5 border-0"
+                    >Join Now For Free</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- bottom footer -->
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="py-5" style="background-color: #4256a4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 mb-4">
+            <div class="logo">
+              <a href="">
+                <img
+                  src="https://preview.colorlib.com/theme/courses/assets/img/logo/logo2_footer.png"
+                  alt="aaa"
+                />
+              </a>
+            </div>
+            <p class="fs-6 text-light my-4">
+              The automated process starts as soon as <br />
+              your clothes go into the machine.
+            </p>
+            <div class="social-icons d-flex align-items-center">
+              <a
+                href=""
+                class="d-flex align-items-center justify-content-center rounded-circle text-light fs-6"
+                style="
+                  width: 50px;
+                  height: 40px;
+                  padding: 6px;
+                  background-color: rgba(0, 0, 0, 0.1);
+                "
+                ><i class="bi bi-twitter-x"></i
+              ></a>
+              <a
+                href=""
+                class="d-flex align-items-center justify-content-center rounded-circle text-light fs-6"
+                style="
+                  width: 50px;
+                  height: 40px;
+                  padding: 6px;
+                  background-color: rgba(0, 0, 0, 0.1);
+                "
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a
+                href=""
+                class="d-flex align-items-center justify-content-center rounded-circle text-light fs-6"
+                style="
+                  width: 50px;
+                  height: 40px;
+                  padding: 6px;
+                  background-color: rgba(0, 0, 0, 0.1);
+                "
+                ><i class="bi bi-pinterest"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-7 mb-4">
+            <div class="row">
+              <div class="col-md-4">
+                <h2 class="text-light fs-4 mb-4">Our solutions</h2>
+                <ul class="m-0 p-0">
+                  <li class="nav-item mb-3" style="list-style: none">
+                    <a href="" class="nav-link text-light"
+                      >Design & creatives</a
+                    >
+                  </li>
+                  <li class="nav-item mb-3" style="list-style: none">
+                    <a href="" class="nav-link text-light">Telecommunication</a>
+                  </li>
+                  <li class="nav-item mb-3" style="list-style: none">
+                    <a href="" class="nav-link text-light">Restaurant</a>
+                  </li>
+                  <li class="nav-item mb-3" style="list-style: none">
+                    <a href="" class="nav-link text-light">Programing</a>
+                  </li>
+                  <li class="nav-item mb-3" style="list-style: none">
+                    <a href="" class="nav-link text-light">Architecture</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h2 class="text-light fs-4 mb-4">Support</h2>
+                <ul class="m-0 p-0">
+                  <li class="nav-item mb-3" style="list-style: none">
+                    <a href="" class="nav-link text-light"
+                      >Design & creatives</a
+                    >
+                  </li>
+                  <li class="nav-item mb-3" style="list-style: none">
+                    <a href="" class="nav-link text-light">Telecommunication</a>
+                  </li>
+                  <li class="nav-item mb-3" style="list-style: none">
+                    <a href="" class="nav-link text-light">Restaurant</a>
+                  </li>
+                  <li class="nav-item mb-3" style="list-style: none">
+                    <a href="" class="nav-link text-light">Programing</a>
+                  </li>
+                  <li class="nav-item mb-3" style="list-style: none">
+                    <a href="" class="nav-link text-light">Architecture</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h2 class="text-light fs-4 mb-4">Company</h2>
+                <ul class="m-0 p-0">
+                  <li class="nav-item mb-3" style="list-style: none">
+                    <a href="" class="nav-link text-light"
+                      >Design & creatives</a
+                    >
+                  </li>
+                  <li class="nav-item mb-3" style="list-style: none">
+                    <a href="" class="nav-link text-light">Telecommunication</a>
+                  </li>
+                  <li class="nav-item mb-3" style="list-style: none">
+                    <a href="" class="nav-link text-light">Restaurant</a>
+                  </li>
+                  <li class="nav-item mb-3" style="list-style: none">
+                    <a href="" class="nav-link text-light">Programing</a>
+                  </li>
+                  <li class="nav-item mb-3" style="list-style: none">
+                    <a href="" class="nav-link text-light">Architecture</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 my-3">
+            <p class="text-light text-center fs-6">
+              copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+                i;
+              </script>
+              All right reserved | This template is made with 💜 by Colorib
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- bootsrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
