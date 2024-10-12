@@ -4,19 +4,19 @@ header {
 }
 /* btn-primary */
 .btn-primary {
-  background-color: #ff9f67;
+  background-color: #ff9f67 !important;
   color: #f4f4f4;
-  position: relative;
-  z-index: 5;
-  overflow: hidden;
+  position: relative !important;
+  z-index: 5 !important;
+  overflow: hidden !important;
   border-color: white !important;
 }
 .btn-secondary {
   background-color: transparent !important;
   border-color: white !important;
-  position: relative;
-  overflow: hidden;
-  z-index: 5;
+  position: relative !important;
+  overflow: hidden !important;
+  z-index: 5 !important;
 }
 /* btn primary hover effect */
 .btn-primary::after,
