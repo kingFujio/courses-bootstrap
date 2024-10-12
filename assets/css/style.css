@@ -125,9 +125,9 @@ footer .nav-link:hover {
   transition: 0.3s ease-in-out;
 }
 .hide-show {
+  background-color: #000;
   height: auto;
   overflow-y: unset;
-  Background-color: #000;
 }
 .mobile-header .nav-item:hover {
   background-color: #f7f1f1;
