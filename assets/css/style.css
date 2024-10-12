@@ -127,6 +127,7 @@ footer .nav-link:hover {
 .hide-show {
   height: auto;
   overflow-y: unset;
+  Background-color: #000;
 }
 .mobile-header .nav-item:hover {
   background-color: #f7f1f1;
